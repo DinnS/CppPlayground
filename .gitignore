@@ -21,15 +21,10 @@
 # Ignore compiled directories
 bin/
 build/
-Debug/
-Release/
+
 
 # Ignore IDE or editor-specific files
 .vscode/
 .idea/
 *.code-workspace
-*.sublime-project
-*.sublime-workspace
 
-# Ignore Makefile auto-generated files
-Makefile~
