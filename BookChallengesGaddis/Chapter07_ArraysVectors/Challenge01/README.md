@@ -1,7 +1,15 @@
-# Maximum/Minimum Array Values
+# Largest/Smallest Array Values
 
-## Task Description
+## Task 
+
+### Description
 Create a program that prompts the user to input ten values into an array. After all values are entered, the program should display the largest and smallest values from the array.
+
+### The program should
+1. Prompt the user to enter 10 values.
+2. Store the values in an array.
+3. Identify the largest and smallest values in the array.
+4. Display the largest and smallest values.
 
 ## Running the Code
 For the best results, run the program directly from the terminal.

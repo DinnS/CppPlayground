@@ -5,13 +5,12 @@
 ### Description
 Create a program that ask the user to input the total rainfall for each of 12 months into an array of doubles. 
 
-### The program should calculate and display
-1. The total rainfall for the year
-2. The average monthly rainfall
-3. The months with the highest and lowest rainfall
-
-### Input Validation
-Do not accept negative numbers for monthly rainfall.
+### The program should
+1. Prompt the user to enter total rainfall for each month.
+2. Validate total rainfall for each month input to ensure no negative numbers are entered.
+3. Calculate and display total rainfall for the year.
+4. Calculate and display average monthly rainfall.
+5. Calculate and display months with the highest and lowest rainfall.
 
 ## Running the Code
 For the best results, run the program directly from the terminal.
