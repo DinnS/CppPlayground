@@ -1,6 +1,6 @@
-# Maximum/Minimum Array Values
+# Rainfall Statistics
 
-## Task 
+## Task
 
 ### Description
 Create a program that ask the user to input the total rainfall for each of 12 months into an array of doubles. 
