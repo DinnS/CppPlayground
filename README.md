@@ -21,7 +21,7 @@ In the **BookChallengesGaddis** folder, you’ll find solutions organized by cha
 
 To compile any of the solutions or projects, navigate to the respective folder and use the following command:
 
-1. Compile the code : g++ <filename>.cpp -o <output_name>
+1. Compile the code : g++ <file_name>.cpp -o <output_name>
 2. Run the compiled program: <output_name>
 
 **Example**
@@ -31,4 +31,5 @@ g++ example_challenge.cpp -o example_challenge
 ./example_challenge
 ```
 
+Detailed and specific instructions on how to compile the project can be found in the folder containing the corresponding folder with .cpp files. Please refer to these instructions for a step-by-step guide.
 
