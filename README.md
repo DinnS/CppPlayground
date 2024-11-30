@@ -10,7 +10,7 @@ This repository contains:
 
 ## Folder Structure
 
-In the **BookChallengesGaddis** folder, you’ll find solutions organized by chapter. Here’s a quick overview of what each chapter covers:
+In the **BookChallengesGaddis** folder, you’ll find my solutions organized by chapter. Here’s a quick overview of what each chapter covers:
 
 - **Chapter07_ArraysVectors**: Solutions for challenges on arrays, vectors, and their applications. Includes examples of sorting, searching, and using STL vectors.
 - **Chapter09_Pointers**: Focuses on pointers, dynamic memory allocation, and pointer arithmetic.
@@ -33,3 +33,6 @@ g++ example_challenge.cpp -o example_challenge
 
 Detailed and specific instructions on how to compile the project can be found in the folder containing the corresponding folder with .cpp files. Please refer to these instructions for a step-by-step guide.
 
+## Reference/Disclaimer
+
+This repository, located in the **BookChallengesGaddis** folder, contains solutions to programming challenges derived from `Starting Out with C++: From Control Structures to Objects by Tony Gaddis`. All task descriptions have been paraphrased for educational purposes only. For full content, please refer to the original book. 

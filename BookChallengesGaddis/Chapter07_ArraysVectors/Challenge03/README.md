@@ -29,5 +29,5 @@ g++ main.cpp -o program
 ./program
 ```
 
-## Reference
-This challenge is derived from the book "Starting Out with C++: From Control Structures to Objects" by Tony Gaddis.
+## Reference/Disclaimer
+This challenge is derived from `Starting Out with C++: From Control Structures to Objects by Tony Gaddis`. Task descriptions have been paraphrased for educational purposes only. For full content and details, please refer to the original book.
