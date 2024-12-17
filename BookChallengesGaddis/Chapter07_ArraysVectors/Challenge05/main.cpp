@@ -22,7 +22,6 @@ int getDayWithLeastFood(int weeklyFood[]);
 // Finds the index of the day with the most amount of food consumed in the week
 int getDayWithMostFood(int weeklyFood[]);
 
-
 void inputMonkeyFoodData(int foodData[][DAYS_IN_WEEK], int monkeyCount) {
 
     for (int monkey = 0; monkey < monkeyCount; monkey++) {
