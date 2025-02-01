@@ -2,9 +2,6 @@
 
 ## Task
 
-### Description
-Create a program that tracks the amount of food eaten by three monkeys each day over a typical week.
-
 ### The program should
 1. Use a 3×7 two-dimensional array where:
     - Each row represents a monkey.

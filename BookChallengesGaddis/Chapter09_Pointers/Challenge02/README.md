@@ -1,15 +1,17 @@
-# Array Allocator
+# Test Scores
 
 ## Task 
 
 ### The program should
-1. Define a function named allocateArray that:
-    - Accepts an integer parameter representing the size of the array.
-    - Dynamically allocates an array of integers using new.
-    - Returns a pointer to the allocated array.
-2. Prompt the user to input the size of the array.
-3. Use the allocateArray function to create the array.
-4. Verify that the array was successfully allocated and display a confirmation message.
+1. Dynamically allocate an array based on the user-defined size.
+2. Prompt the user to input test scores and validate they are non-negative.
+3. Define a function to:
+    - Sort the scores in ascending order using pointer notation.
+4. Define another function to:
+    - Calculate and return the average of the scores.
+5. Display:
+    - The sorted list of scores.
+    - The average score.
 
 ## Running the Code
 For the best results, run the program directly from the terminal.

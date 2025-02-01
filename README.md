@@ -35,4 +35,4 @@ Detailed and specific instructions on how to compile the project can be found in
 
 ## Reference/Disclaimer
 
-This repository, located in the **BookChallengesGaddis** folder, contains solutions to programming challenges derived from `Starting Out with C++: From Control Structures to Objects by Tony Gaddis`. All task descriptions have been paraphrased for educational purposes only. For full content, please refer to the original book. 
+This repository, located in the **BookChallengesGaddis** folder, contains solutions to programming challenges derived from `Starting Out with C++: From Control Structures to Objects by Tony Gaddis`. Task descriptions are not used in this folder, due to the license, instead it describes what the program should do. For full content, please refer to the original book. 

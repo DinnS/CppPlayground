@@ -2,9 +2,6 @@
 
 ## Task
 
-### Description
-Create a program to track sales of five salsa types: mild, medium, sweet, hot, and zesty.
-
 ### The program should
 1. Use two parallel arrays
     - One array of strings for salsa names, initialized at creation.

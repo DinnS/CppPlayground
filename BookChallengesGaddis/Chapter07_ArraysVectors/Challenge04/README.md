@@ -2,9 +2,6 @@
 
 ## Task
 
-### Description
-Write a function that accepts three arguments: an array of integers, the size of the array, and a number n. The function should display all numbers in the array that are greater than n.
-
 ### The program should
 1. Include a function named `displayGreaterThan` with the following arguments:
     - An array of integers

@@ -2,9 +2,6 @@
 
 ## Task
 
-### Description
-Create a program that ask the user to input the total rainfall for each of 12 months into an array of doubles. 
-
 ### The program should
 1. Prompt the user to enter total rainfall for each month.
 2. Validate total rainfall for each month input to ensure no negative numbers are entered.

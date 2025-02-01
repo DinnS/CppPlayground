@@ -2,9 +2,6 @@
 
 ## Task 
 
-### Description
-Create a program that prompts the user to input ten values into an array. After all values are entered, the program should display the largest and smallest values from the array.
-
 ### The program should
 1. Prompt the user to enter 10 values.
 2. Store the values in an array.
