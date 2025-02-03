@@ -1,14 +1,12 @@
-# Test Scores
+# Test Scores Part 1
 
-## Task 
-
-### The program should
+## The program should
 1. Whenever possible use pointer notation rather than array notation.
 2. Dynamically allocate an array based on the user-defined size.
 3. Prompt the user to input test scores and validate they are non-negative.
-4. Define a function named sortScoreAscending that:
+4. Define a function named `sortScoreAscending` that:
     - Sort the scores in ascending order
-5. Define a function named calculateAverageScore that:
+5. Define a function named `calculateAverageScore` that:
     - Calculate and return the average of the scores.
 6. Display:
     - The sorted list of scores.

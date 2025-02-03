@@ -1,8 +1,6 @@
 # Largest/Smallest Array Values
 
-## Task 
-
-### The program should
+## The program should
 1. Prompt the user to enter 10 values.
 2. Store the values in an array.
 3. Identify the largest and smallest values in the array.

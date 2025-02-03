@@ -1,8 +1,6 @@
 # Array Allocator
 
-## Task 
-
-### The program should
+## The program should
 1. Define a function named allocateArray that:
     - Accepts an integer parameter representing the size of the array.
     - Dynamically allocates an array of integers using new.

@@ -1,8 +1,6 @@
 # Monkey Business
 
-## Task
-
-### The program should
+## The program should
 1. Use a 3×7 two-dimensional array where:
     - Each row represents a monkey.
     - Each column represents a day of the week.

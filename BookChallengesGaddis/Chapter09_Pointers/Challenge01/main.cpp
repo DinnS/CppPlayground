@@ -4,7 +4,7 @@ using namespace std;
 
 /******************** prototypes ********************/
 
-// Allocates a new array and returns a pointer to it
+// Allocates a new array and returns a pointer to it.
 int *allocateArray(int size);
 
 
@@ -28,9 +28,13 @@ int main() {
         cout << *(arrayPtr + i) << " ";
     }
 
+    // Free memory
+    delete []arrayPtr;
+    arrayPtr = nullptr;
+    
     cout << endl;
 
-    return 1;
+    return 0;
 }
 
 

@@ -1,8 +1,6 @@
 # Larger than n
 
-## Task
-
-### The program should
+## The program should
 1. Include a function named `displayGreaterThan` with the following arguments:
     - An array of integers
     - The size of the array

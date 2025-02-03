@@ -1,8 +1,6 @@
 # Chips and Salsa
 
-## Task
-
-### The program should
+## The program should
 1. Use two parallel arrays
     - One array of strings for salsa names, initialized at creation.
     - One array of integers for the number of jars sold per type.

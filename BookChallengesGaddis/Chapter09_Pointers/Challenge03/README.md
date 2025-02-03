@@ -1,11 +1,8 @@
-# Rainfall Statistics
+# Drop Lowest Score
 
 ## The program should
-1. Prompt the user to enter total rainfall for each month.
-2. Validate total rainfall for each month input to ensure no negative numbers are entered.
-3. Calculate and display total rainfall for the year.
-4. Calculate and display average monthly rainfall.
-5. Calculate and display months with the highest and lowest rainfall.
+1. Use the code from Challenge02
+2. Drop the lowest score, before sorting and calculation
 
 ## Running the Code
 For the best results, run the program directly from the terminal.
