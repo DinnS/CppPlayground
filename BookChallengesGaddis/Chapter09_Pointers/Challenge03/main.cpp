@@ -89,7 +89,7 @@ int getUserNumber(string prompt)
             isNumberValid = true;
         }
     }
- 
+
     return number;
 }
 
@@ -153,6 +153,7 @@ void sortScoreAscending(int *scoreArray, const int size)
         {
             if (*(scoreArray + j) > *(scoreArray + (j + 1)))
             {
+                // Swapping the numbers
                 tempNumber = *(scoreArray + j);
                 *(scoreArray + j) = *(scoreArray + (j + 1));
                 *(scoreArray + (j + 1)) = tempNumber;
@@ -175,14 +176,17 @@ float calculateAverageScore(const int *scoreArray, const int size)
     return averageScore;
 }
 
-int getMinNumber(const int *scoreArray, const int size) {
+int getMinNumber(const int *scoreArray, const int size)
+{
 
     int min = 0;
 
     min = scoreArray[0];
 
-    for(int i = 0; i < size; i++) {
-        if(min > *(scoreArray + i)) {
+    for (int i = 0; i < size; i++)
+    {
+        if (min > *(scoreArray + i))
+        {
             min = *(scoreArray + i);
         }
     }
@@ -190,21 +194,29 @@ int getMinNumber(const int *scoreArray, const int size) {
     return min;
 }
 
-int *dropLowestScore(int *scoreArray, int *size) {
+int *dropLowestScore(int *scoreArray, int *size)
+{
 
     int *newArray = nullptr;
     int newSize = 0;
     int min = 0;
+    // Variable for be sure that value drop once
     bool isValueDropped = false;
 
-    newArray = new int[(*size)-1];
+    newArray = new int[(*size) - 1];
     newSize = *(size);
+
+    // Find Min Number, which will be using for delete
     min = getMinNumber(scoreArray, *size);
 
-    for(int i = 0, j = 0; i < (*size); i++, j++) {
-        if(scoreArray[i] != min || isValueDropped) {
+    for (int i = 0, j = 0; i < (*size); i++, j++)
+    {
+        if (scoreArray[i] != min || isValueDropped)
+        {
             newArray[i] = scoreArray[j];
-        } else {
+        }
+        else
+        {
             newArray[i] = scoreArray[j + 1];
             newSize--;
             j++;
@@ -214,7 +226,7 @@ int *dropLowestScore(int *scoreArray, int *size) {
 
     *size = newSize;
 
-    delete []scoreArray;
+    delete[] scoreArray;
 
     return newArray;
 }
